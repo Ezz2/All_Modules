@@ -1,4 +1,4 @@
-By Ezz
+# By Ezz
 
 import time
 
