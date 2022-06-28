@@ -1,4 +1,4 @@
-# By Ezz
+# by Ezz
 
 # -----------------------------------
 # -- Date And Time => Introduction --
@@ -10,17 +10,21 @@ import datetime as d
 # print(dir(datetime.datetime))
 
 # Print Current Date And Time
-
+print(d.datetime.today()) # Print Currnet Day Time, etc
 print(d.datetime.now())
+print(d.date.today()) # Print Date Only
 
 print("_" * 10)
 
-# Print Current Year, month, day, today
-
-print(d.date.today())
+# Print Current Year, Month, Dat, Today, etc
 print(d.datetime.now().year)
 print(d.datetime.now().month)
 print(d.datetime.now().day)
+print(d.datetime.now().hour)
+print(d.datetime.now().min)
+print(d.datetime.now().second)
+print(d.datetime.now().microsecond)
+print(d.datetime.now().ctime()) # All Thing
 
 print("_" * 10)
 
