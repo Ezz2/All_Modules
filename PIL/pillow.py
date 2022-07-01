@@ -13,7 +13,7 @@ myImage = Image.open("D:\ezz.programing\python\Images\Ezz_Image.png")
 myImage.show()
 
 # My Cropped Image
-myBox = (0, 0, 400, 400)
+myBox = (0, 0, 400, 400) # Left, Upper, right, Lower
 mynewImage = myImage.crop(myBox)
 
 # Show The New Image
